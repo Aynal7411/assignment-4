@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Recipe App</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+<!-- Page Loader -->
+<div id="page-loader">
+  <div class="spinner"></div>
+</div>
+<!-- Header / Hero -->
+<header class="main-header">
+  <div class="hero-overlay">
+
+    <!-- Logo -->
+    <div class="logo">
+      <img src="assets/logo.png" alt="Recipe App Logo">
+    </div>
+
+    <!-- Hero Content -->
+    <div class="hero-content">
+      <h1>Search Your Favorite Recipe</h1>
+      <p>
+        A handful of simple ingredients typify the fresh,
+        vibrant flavours of Greek cooking
+      </p>
+    </div>
+
+    <!-- Search -->
+    <div class="search-box">
+      <input type="text" id="searchInput" placeholder="Search recipes..." />
+      <button onclick="searchMeal()">🔍</button>
+    </div>
+
+  </div>
+</header>
+
+<!-- Recipes -->
+<section class="container">
+  <h2 class="section-title">Latest Recipes</h2>
+  <div id="mealContainer" class="grid"></div>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+  <p>Copyright © 2025 | All rights reserved</p>
+</footer>
+
+<script src="js/app.js"></script>
+</body>
+</html>
